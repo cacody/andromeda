@@ -1,5 +1,17 @@
 /**
- * Place your custom styles here.
+ * Default (small display) styles first. Larger displays in media queries. 
+ */
+
+/**
+ *  BEGIN default styles for Regions/Variables in <header>
+ *  1. #top-navigation 
+ *  2. #logo-name-navsearch
+ *		2a.	.logo
+ *  	2b. .site-name
+ *	 	2c  .header (renders if not empty and no $site_name)
+ *  	2d. .search-box
+ *  5. #integrated-header
+ *
  */
 
 #header {
@@ -18,9 +30,25 @@ img.logo {
 	max-width: 100%;
 }
 
+.site-name {
+	
+}
+
+.header-blocks {
+	
+}
+
+.search-box {
+	
+}
+
 #integrated-header {
 	background:#eee;
 }
+
+/** END default styles for <header> */
+
+
 
 #main-top {
 	background:#ddd;

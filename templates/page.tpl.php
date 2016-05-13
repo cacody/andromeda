@@ -104,7 +104,7 @@
     					<?php endif; ?>
                     	
 						<?php if (!empty($page['search_box'])): ?>
-						<div class="col-md-3 col-md-push-6">
+						<div class="search-box col-md-3 col-md-push-6">
 						<?php print render($page['search_box']); ?>
 						</div>
 						<?php endif; ?>
@@ -113,7 +113,7 @@
 						<?php if (!empty($site_name) || (!empty($page['header']))): ?>
 							
 							<?php if (!empty($site_name)): ?>	
-							<div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-3<?php if (!empty($page['header'])) {echo " hidden";} ?>">
+							<div class="site-name col-xs-12 col-sm-12 col-md-6 col-md-pull-3<?php if (!empty($page['header'])) {echo " hidden";} ?>">
 							<a href="<?php print $front_page; ?>" 
 							title="<?php print t('Home'); ?>">
 								<?php print $site_name; ?>
@@ -123,7 +123,7 @@
 							
 						
 							<?php if (!empty($page['header'])): ?>
-							<div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-3">
+							<div class="header-blocks col-xs-12 col-sm-12 col-md-6 col-md-pull-3">
 								<?php print render($page['header']); ?>
 							</div>
 							<?php endif; ?>
