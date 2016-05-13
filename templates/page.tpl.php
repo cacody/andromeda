@@ -153,7 +153,7 @@
 
 <?php if ($main_menu): ?>
 
-testing for main menu
+<?php print render($main_nav); ?>
 
 <? endif; ?>
 
