@@ -152,9 +152,25 @@
 </header>
 
 <?php if (!empty($page['navigation'])): ?>
-<nav id="navigation" role="navigation">
-<?php print render($page['navigation']); ?>
-</nav>
+
+<div id="main-menu" class="clearfix site-main-menu">
+	<div class="container hidden-phone visible-tablet visible-desktop">
+		<div class="navbar">
+		<?php if ($main_menu): ?>
+			<div class="navbar-inner">
+				<div class="container">
+		<?php endif; ?>
+					<div class="nav-collapse collapse">
+						<nav id="navigation" role="navigation">
+							<?php print render($page['navigation']); ?>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <?php endif; ?>
 
 <?php if (!empty($page['main_top'])): ?>
