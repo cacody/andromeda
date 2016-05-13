@@ -87,7 +87,7 @@
 }
 
 #logo-name-navsearch {
-	background:#ddd;
+	
 }
 
 img.logo {
@@ -204,7 +204,7 @@ img.logo {
 			</div>
 		</div>
 		</div>
-	</div><!-- //#main-top -->
+	</div><!-- /#main-top -->
 <?php endif; ?>
 
 <?php if (!empty($page['main_upper'])): ?>
