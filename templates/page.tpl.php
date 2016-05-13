@@ -151,11 +151,11 @@
 	<?php endif; ?>
 </header>
 
-<?php if ($main_menu): ?>
-
-<?php print render($main_nav); ?>
-
-<? endif; ?>
+<?php if (!empty($page['navigation'])): ?>
+<nav id="menu" role="navigation">
+<?php print render($page['navigation']); ?>
+</nav>
+<?php endif; ?>
 
 <?php if (!empty($page['main_top'])): ?>
 	<div id="main-top" class="bg-image" role="complementary">
@@ -278,9 +278,5 @@
 	</div><!-- /#footer -->
 <?php endif; ?>
 
-<?php if (!empty($page['navigation'])): ?>
-<nav id="menu" role="navigation">
-<?php print render($page['navigation']); ?>
-</nav>
-<?php endif; ?>
+
 
