@@ -5,3 +5,35 @@
 #header {
 	background-color: #00274c;
 }
+
+#top-navigation {
+	background:#eee;
+}
+
+#logo-name-navsearch {
+	padding: 20px 0;
+}
+
+img.logo {
+	max-width: 100%;
+}
+
+#integrated-header {
+	background:#eee;
+}
+
+#main-top {
+	background:#ddd;
+}
+
+#main-upper {
+	background:#eee;
+}
+
+#main-lower {
+	background:#ddd;
+}
+
+#main-bottom {
+	background:#eee;
+}
