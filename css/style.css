@@ -38,6 +38,10 @@ img.logo {
 	background:#eee;
 }
 
+.patients-landing-page .nav li {
+	display: inline-block;
+}
+
 
 /** Legacy styles for Doppelganger */
 
@@ -130,7 +134,7 @@ color: #ddd;
 }
 
 .site-main-menu ul.menu li {
-	width: 16.5%;
+	width: 14.5%;
 }
 
 .navbar .nav>li.leaf {
