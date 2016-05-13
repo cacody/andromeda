@@ -22,6 +22,10 @@
 	background:transparent;
 }
 
+#top-navigation .nav > ul > li {
+	padding: 0 8px;
+}
+
 #logo-name-navsearch {
 	padding: 20px 0;
 }
