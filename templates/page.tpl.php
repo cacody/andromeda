@@ -152,7 +152,7 @@
 </header>
 
 <?php if (!empty($page['navigation'])): ?>
-<nav id="menu" role="navigation">
+<nav id="navigation" role="navigation">
 <?php print render($page['navigation']); ?>
 </nav>
 <?php endif; ?>
