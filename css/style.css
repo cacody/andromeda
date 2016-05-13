@@ -22,7 +22,7 @@
 	background:transparent;
 }
 
-#top-navigation .nav > ul > li {
+#top-navigation .nav > li > a {
 	padding: 0 8px;
 }
 
