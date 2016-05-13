@@ -134,7 +134,8 @@ color: #ddd;
 }
 
 .site-main-menu ul.menu li {
-	width: 14.5%;
+	width: 16.5%;
+	float: left;
 }
 
 .navbar .nav>li.leaf {
