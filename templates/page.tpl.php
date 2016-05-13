@@ -116,7 +116,7 @@ img.logo {
 
 </style>
 
-<header id="header" class="bg-image" role="banner">
+<header id="header" role="banner">
 	<?php if (!empty($page['top_nav'])): ?>
 		<div id="top-navigation">
 		    <div class="container">
@@ -194,7 +194,7 @@ img.logo {
 </header>
 
 <?php if (!empty($page['main_top'])): ?>
-	<div id="main-top" role="complementary">
+	<div id="main-top" class="bg-image" role="complementary">
 		<div class="container">
 		<div class="row">
 			<div class="col-md-12">
