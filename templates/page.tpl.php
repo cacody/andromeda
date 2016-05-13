@@ -154,7 +154,7 @@
 <?php if (!empty($page['navigation'])): ?>
 
 <div id="main-menu" class="clearfix site-main-menu">
-	<div class="container hidden-xs hidden-sm visible-md visible-lg">
+	<div class="container hidden-xs visible-sm visible-md visible-lg">
 		<div class="navbar">
 		<?php if ($main_menu): ?>
 			<div class="navbar-inner">
