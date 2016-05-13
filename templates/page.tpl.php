@@ -151,6 +151,12 @@
 	<?php endif; ?>
 </header>
 
+<?php if ($main_menu): ?>
+
+testing for main menu
+
+<? endif; ?>
+
 <?php if (!empty($page['main_top'])): ?>
 	<div id="main-top" class="bg-image" role="complementary">
 	
