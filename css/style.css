@@ -19,16 +19,28 @@
 }
 
 #top-navigation {
-	background:transparent;
+	background: #001931;
+	padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 #top-navigation .nav > li > a {
 	padding: 0 8px;
+	color: #ddd;
+	font-size: .9em;
+}
+
+#top-navigation .nav > li > a:hover {
+	background: transparent;
+	text-decoration: underline;
+	color: #ffcb05;
 }
 
 #logo-name-navsearch {
 	padding: 20px 0;
 }
+
+
 
 img.logo {
 	max-width: 100%;
@@ -79,47 +91,7 @@ img.logo {
 
 /* Main Menu */
 
-#top-navigation {
-background: #001931;
-    font-size: .9em;
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
 
-#top-navigation ul li {
-text-decoration: none;
-    color: #ddd;
-}
-
-#top-navigation ul li a {
-color: #ddd;
-    text-transform: white;
-    text-decoration: none;
-}
-
-#top-navigation ul li a:hover {
-    text-decoration: underline;
-    color: #ffcb05;
-}
-
-#top-navigation ul li a i:hover {
-        text-decoration:none;
-}
-
-#top-navigation .utility-nav-social ul.inline>li {
-    padding: 0;
-}
-
-#top-navigation ul.utility-nav-social.unstyled.inline li {
-    color:#ffffff;
-    text-decoration:none;
-    font-size:1.2em;
-    padding:0;
-}
-
-#top-navigation ul.utility-nav-social.unstyled.inline li a:hover {
-    color:#ffcb05;
-}
 
 
 /* ----- Main Navigation ------------- */
