@@ -154,13 +154,13 @@
 <?php if (!empty($page['navigation'])): ?>
 
 <div id="main-menu" class="clearfix site-main-menu">
-	<div class="container hidden-phone visible-tablet visible-desktop">
+	<div class="container hidden-xs hidden-sm visible-md visible-lg">
 		<div class="navbar">
 		<?php if ($main_menu): ?>
 			<div class="navbar-inner">
 				<div class="container">
 		<?php endif; ?>
-					<div class="nav-collapse collapse">
+					<div>
 						<nav id="navigation" role="navigation">
 							<?php print render($page['navigation']); ?>
 						</nav>
