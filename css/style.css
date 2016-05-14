@@ -220,8 +220,8 @@ img.logo {
 		}
 
 	#main-menu .button {
-		padding-top: 5px;
-		padding-bottom: 5px;
+		padding-top: 0;
+		padding-bottom: 14px;
 	}
 
 
