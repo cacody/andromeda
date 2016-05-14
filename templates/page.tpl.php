@@ -173,7 +173,7 @@
 		</div>
 	</div><!-- /.full-menu -->
 	
-	<div class="mobile-menu visible-phone hidden-tablet hidden-desktop">
+	<div class="mobile-menu visible-xs hidden-sm hidden-md hidden-lg">
     	<div>
     	  <div class="button first trigger1" style="width:50%;"><i class="icon-align-justify"></i><br>Menu</div>
     	  <div class="button trigger2" style="width:50%;"><i class="icon-search"></i><br>Search</div>
