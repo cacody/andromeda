@@ -37,4 +37,4 @@ stylesheets[all][] = css/style.css
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
 
-scripts[all][] = js/script.js
+scripts[] = js/script.js

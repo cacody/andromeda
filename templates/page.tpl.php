@@ -157,12 +157,10 @@
 	
 	
 	
-	<div class="full-menu container hidden-xs visible-sm visible-md visible-lg">
+	<div class="container hidden-xs visible-sm visible-md visible-lg">
 		<div class="navbar">
-		<?php if ($main_menu): ?>
 			<div class="navbar-inner">
 				<div class="container">
-		<?php endif; ?>
 					<div>
 						<nav id="navigation" role="navigation">
 							<?php print render($page['navigation']); ?>
@@ -173,12 +171,9 @@
 		</div>
 	</div><!-- /.full-menu -->
 	
-	<div class="mobile-menu visible-xs hidden-sm hidden-md hidden-lg">
-    	<div>
-    	  <div class="button first trigger1" style="width:50%;"><i class="icon-align-justify"></i><br>Menu</div>
-    	  <div class="button trigger2" style="width:50%;"><i class="icon-search"></i><br>Search</div>
-    	  <div class="button trigger3" style="display:none;"><i class="icon-globe"></i><br>Mobile</div>
-    	  <div class="button last trigger4" style="display:none;"><i class="icon-comments"></i><br>Social</div>
+	<div class="visible-xs hidden-sm hidden-md hidden-lg">
+    	<div class="button first trigger1" style="width:50%;"><i class="icon-align-justify"></i><br>Menu</div>
+    		<div class="button trigger2" style="width:50%;"><i class="icon-search"></i><br>Search</div>
     	</div>
 		<div class="menus-container" style="overflow:hidden;">
 			<div class="mobile-dropdown-menu area1" style="overflow:hidden;">
@@ -203,25 +198,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="mobile-dropdown-menu area3">
-				<div class="target1">
-					<ul class="unstyled">
-						<li>item 6</li>
-						<li>item 7</li>
-						<li>item 8</li>
-					</ul>
-				</div>
-			</div>
-			<div class="mobile-dropdown-menu area4">
-				<div class="target1">
-					<ul class="unstyled">
-						<li>item 9</li>
-						<li>item 10</li>
-						<li>item 11</li>
-					</ul>
-				</div>
-			</div>
-		</div>
      </div><!-- /.mobile-menu -->
 
 </div>
