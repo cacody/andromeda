@@ -32,3 +32,9 @@ regions[footer] = 'Footer'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[all][] = js/script.js
