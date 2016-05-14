@@ -154,7 +154,10 @@
 <?php if (!empty($page['navigation'])): ?>
 
 <div id="main-menu" class="clearfix site-main-menu">
-	<div class="container hidden-xs visible-sm visible-md visible-lg">
+	
+	
+	
+	<div class="full-menu container hidden-xs visible-sm visible-md visible-lg">
 		<div class="navbar">
 		<?php if ($main_menu): ?>
 			<div class="navbar-inner">
@@ -168,9 +171,60 @@
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
+	</div><!-- /.full-menu -->
+	
+	<div class="mobile-menu visible-phone hidden-tablet hidden-desktop">
+    	<div>
+    	  <div class="button first trigger1" style="width:50%;"><i class="icon-align-justify"></i><br>Menu</div>
+    	  <div class="button trigger2" style="width:50%;"><i class="icon-search"></i><br>Search</div>
+    	  <div class="button trigger3" style="display:none;"><i class="icon-globe"></i><br>Mobile</div>
+    	  <div class="button last trigger4" style="display:none;"><i class="icon-comments"></i><br>Social</div>
+    	</div>
+		<div class="menus-container" style="overflow:hidden;">
+			<div class="mobile-dropdown-menu area1" style="overflow:hidden;">
+				<div class="target1">
+          			<?php print render($page['navigation']); ?>
+				</div>
+			</div>
+			<div class="mobile-dropdown-menu area2">
+				<div class="target1">
+			    	<div class="mobile-menu-search-block">
+						<?php if ($page['search_box']): ?>
+      						<div id="mobile-menu-search" class="mobile-menu-search"> 
+								<?php print render($page['search_box']); ?>
+	  						</div>
+						<?php endif; ?>	
+			    	</div>
+			  		<div class="mobile-menu-search-block">
+						<div class="mobile-menu-find-person">
+							<a href="http://mcommunity.umich.edu" title="Search the U-M Directory for a person">
+								<i class="icon-user"></i> Find a person</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mobile-dropdown-menu area3">
+				<div class="target1">
+					<ul class="unstyled">
+						<li>item 6</li>
+						<li>item 7</li>
+						<li>item 8</li>
+					</ul>
+				</div>
+			</div>
+			<div class="mobile-dropdown-menu area4">
+				<div class="target1">
+					<ul class="unstyled">
+						<li>item 9</li>
+						<li>item 10</li>
+						<li>item 11</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+     </div><!-- /.mobile-menu -->
 
+</div>
 <?php endif; ?>
 
 <?php if (!empty($page['main_top'])): ?>
