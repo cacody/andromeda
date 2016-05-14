@@ -304,7 +304,7 @@ img.logo {
 		float: left;
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;
-		min-height: 61px;
+		min-height: 65px;
 		font-size: 1.2em;
 		box-shadow: 0px 2px 8px -3px rgb(85, 85, 85) inset;
 	}
@@ -320,6 +320,10 @@ img.logo {
 
 	.mobile-menu-search-block #block-search-form input.btn-search {
 		display: none;
+	}
+	
+	.mobile-menu-search-block .form-group {
+		margin-bottom: 0;
 	}
 
 	.mobile-menu-find-person {
