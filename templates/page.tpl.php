@@ -155,8 +155,6 @@
 
 <div id="main-menu" class="clearfix site-main-menu">
 	
-	
-	
 	<div class="container hidden-xs visible-sm visible-md visible-lg">
 		<div class="navbar">
 			<div class="navbar-inner">
