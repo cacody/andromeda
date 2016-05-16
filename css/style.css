@@ -86,6 +86,10 @@ img.logo {
 	display: inline-block;
 }
 
+.patients-landing-page-menu .nav li {
+	display: block;
+}
+
 
 /** Legacy styles for Doppelganger */
 
