@@ -90,6 +90,13 @@ img.logo {
 	/** alert section background image */
 }
 
+main {
+	background: url('/sites/default/files/Dental-School-blue-35.png');
+	background-repeat: no-repeat;
+	background-position: ;
+	background-size: ;
+}
+
 #main-lower {
 	background:#ddd;
 }
