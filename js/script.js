@@ -132,8 +132,5 @@ event.handled = true;
 
   });
 
-$('[data-toggle], [data-target]').each(function(index, value) {
-        $(this).removeAttr('data-toggle')
-               .removeAttr('data-target');
-    });
+
 });
