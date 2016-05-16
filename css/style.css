@@ -65,9 +65,9 @@ img.logo {
 /** END default styles for <header> */
 
 
-/** Basic vertical padding for all content regions */
+/** Basic vertical padding for major content regions except #main-top */
 
-#main-top, #main-upper, #main-lower, #main-bottom {
+#main-upper, #main-lower, #main-bottom {
 	padding: 15px 0;
 }
 
