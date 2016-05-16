@@ -71,17 +71,27 @@ img.logo {
 	padding: 15px 0;
 }
 
+/** default region specific styles */
+
 
 #main-top {
-	background:#ddd;
+	background:#fff;
 }
 
 #main-upper {
-	background:#eee;
+	background:#fff;
+}
+
+.patients-landing-page #main-upper {
+	/** alert section background image */
 }
 
 #main-lower {
 	background:#ddd;
+}
+
+.patients-landing-page #main-lower h4 a {
+	display: block;
 }
 
 #main-bottom {
