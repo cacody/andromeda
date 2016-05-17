@@ -194,21 +194,16 @@ main {
 	
 }
 
-.patients-landing-page #main-lower h4 a.collapsed i.fa-plus {
+.patients-landing-page #main-lower h4 a[aria-expanded="false"] i.fa.fa-plus {
 	display:inline-block;
 }
 
-.patients-landing-page #main-lower h4 a:not(.collapsed) i.fa-plus {
+.patients-landing-page #main-lower h4 a[aria-expanded="true"] i.fa.fa-plus {
 	display:none;
 }
 
-.patients-landing-page #main-lower h4 a.collapsed i.fa-minus {
-	display:none;
-}
+.patients-landing-page #main-lower h4 a:not(.collapsed)
 
-.patients-landing-page #main-lower h4 a:not(.collapsed) i.fa-minus {
-	display:inline-block;
-}
 
 #main-lower .panel-heading {
 	padding:0;
