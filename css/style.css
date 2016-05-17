@@ -194,8 +194,12 @@ main {
 	
 }
 
+.patients-landing-page #main-lower h4 a i.fa-plus {
+	display:none;
+}
+
 .patients-landing-page #main-lower h4 a.collapsed i.fa-plus {
-	display:block;
+	display:inline-block;
 }
 
 .patients-landing-page #main-lower h4 a.collapsed i.fa-minus {
