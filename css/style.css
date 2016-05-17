@@ -197,6 +197,7 @@ main {
 
 .patients-landing-page #main-lower h4 a:focus {
 	text-decoration: none;
+	background: rgba(255,255,255,.8);
 }
 
 
