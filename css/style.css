@@ -92,7 +92,7 @@ img.logo {
 
 #main-top h1 {
 	margin-top: 0;
-	padding: 15px 5px;
+	padding: 5px 15px;
 	background: -moz-linear-gradient(left, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.43) 4%, rgba(255,255,255,0.43) 5%, rgba(255,255,255,0.19) 81%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, rgba(255,255,255,0.01) 0%,rgba(255,255,255,0.43) 4%,rgba(255,255,255,0.43) 5%,rgba(255,255,255,0.19) 81%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, rgba(255,255,255,0.01) 0%,rgba(255,255,255,0.43) 4%,rgba(255,255,255,0.43) 5%,rgba(255,255,255,0.19) 81%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -116,8 +116,8 @@ img.logo {
 	margin-left: 0;
 	background: #00274c;
 	color: #fff;
-	padding-left: 5px;
-	margin-bottom: 5px;
+	padding-left: 10px;
+	margin-bottom: 10px;
 	border-radius: 3px;
 }
 
