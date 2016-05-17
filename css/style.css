@@ -197,6 +197,7 @@ main {
 #main-lower .panel {
 	border: none;
 	box-shadow: none;
+	background: transparent;
 }
 
 #main-lower .panel-group .panel {
