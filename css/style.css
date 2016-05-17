@@ -120,6 +120,12 @@ main {
 	display: block;
 }
 
+.patients-landing-page-menu .nav > li > a {
+	margin-left: 0;
+	background: #00274c;
+	color: #fff;
+	padding-left: 10px;
+}
 
 /** Legacy styles for Doppelganger */
 
