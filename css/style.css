@@ -195,11 +195,11 @@ main {
 }
 
 
-.patients-landing-page #main-lower h4 a[aria-expanded="true"]:not(.collapsed) i.fa-plus{
+.patients-landing-page #main-lower h4 a.collapsed i.fa-plus{
 	display: inline-block;
 }
 
-.patients-landing-page #main-lower h4 a[aria-expanded="true"].collapsed i.fa-plus {
+.patients-landing-page #main-lower h4 a:not(.collapsed) i.fa-plus {
 	display: none;
 }
 
