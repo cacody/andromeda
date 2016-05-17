@@ -173,6 +173,24 @@ main {
 
 .patients-landing-page #main-lower h4 a {
 	display: block;
+	padding: 10px 15px;
+}
+
+#main-lower .panel-heading {
+	padding:0;
+}
+
+#main-lower .panel {
+	border: none;
+}
+
+#main-lower .panel-group .panel {
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+#main-lower .panel-default > .panel-heading {
+	background-color: #fff;
 }
 
 /**  MAIN BOTTOM REGION DEFAULTS  **/
