@@ -87,7 +87,10 @@ img.logo {
 }
 
 .patients-landing-page #main-upper {
-	/** alert section background image */
+	background-image: url('/sites/default/files/Dental-School-blue-35.png');
+	background-repeat: none;
+	background-size: cover;
+	background-position: 0 0;
 }
 
 main {
