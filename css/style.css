@@ -198,11 +198,18 @@ main {
 	display:inline-block;
 }
 
+.patients-landing-page #main-lower h4 a i.fa-plus, .patients-landing-page #main-lower h4 a i.fa-minus {
+	display:none;
+}
+
 .patients-landing-page #main-lower h4 a[aria-expanded="true"] i.fa.fa-plus {
 	display:none;
 }
 
-.patients-landing-page #main-lower h4 a:not(.collapsed)
+.patients-landing-page #main-lower h4 a[aria-expanded="false"] i.fa-minus {
+	display: none;
+}
+
 
 
 #main-lower .panel-heading {
