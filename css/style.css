@@ -125,6 +125,12 @@ main {
 	background: #00274c;
 	color: #fff;
 	padding-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+.patients-landing-page-menu .nav > li > a:hover {
+	background: #587abc;
 }
 
 /** Legacy styles for Doppelganger */
