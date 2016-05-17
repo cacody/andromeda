@@ -190,9 +190,12 @@ main {
 	font-size: 1.2em;
 }
 
-.patients-landing-page #main-lower h4 a {
-	
+.patients-landing-page #main-lower h4 a:hover, .patients-landing-page #main-lower h4 a:active {
+	text-decoration: none;
+	background: rgba(255,203,5,.3);
 }
+
+
 
 
 .patients-landing-page #main-lower h4 a.collapsed i.fa-plus{
