@@ -14,6 +14,15 @@
  *
  */
 
+/** GLOBAL DEFAULTS **/
+
+#main-upper, #main-content, #main-lower, #main-bottom {
+	padding: 15px 0;
+}
+
+
+/** HEADER REGION DEFAULTS **/
+
 #header {
 	background-color: #00274c;
 }
@@ -62,27 +71,20 @@ img.logo {
 	background:#eee;
 }
 
-/** END default styles for <header> */
-
-
-/** Basic vertical padding for major content regions except #main-top */
-
-#main-upper, #main-content, #main-lower, #main-bottom {
-	padding: 15px 0;
-}
-
-.patients-landing-page #main-top {
-	padding-top:0;
-	padding-bottom:15px;
-}
-
-/** default region specific styles */
-
+/**  NAVIGATION REGION DEFAULTS **/
 
 #navigation {
 	margin-left: -15px;
 }
 
+
+/**  MAIN TOP REGION DEFAULTS  **/
+
+
+.patients-landing-page #main-top {
+	padding-top:0;
+	padding-bottom:15px;
+}
 
 #main-top {
 	background:#fff;
@@ -102,36 +104,6 @@ img.logo {
 	color: #00274c;
 }
 
-#main-upper {
-	background:#fff;
-}
-
-.patients-landing-page #main-upper {
-	background-image: url('/sites/default/files/patients-alert-background.jpg');
-	background-repeat: none;
-	background-size: cover;
-	background-position: 0 0;
-}
-
-main {
-	background: url('/sites/default/files/Dental-School-blue-35.png');
-	background-repeat: no-repeat;
-	background-position: ;
-	background-size: ;
-}
-
-#main-lower {
-	background:#ddd;
-}
-
-.patients-landing-page #main-lower h4 a {
-	display: block;
-}
-
-#main-bottom {
-	background:#eee;
-}
-
 .patients-landing-page .nav li {
 	display: inline-block;
 }
@@ -144,8 +116,8 @@ main {
 	margin-left: 0;
 	background: #00274c;
 	color: #fff;
-	padding-left: 10px;
-	margin-bottom: 10px;
+	padding-left: 5px;
+	margin-bottom: 5px;
 	border-radius: 3px;
 }
 
@@ -153,12 +125,56 @@ main {
 	background: #587abc;
 }
 
-/** Legacy styles for Doppelganger */
+
+/**  MAIN UPPER REGION DEFAULTS  **/
+
+#main-upper {
+	background:#fff;
+}
+
+.patients-landing-page #main-upper {
+	background-image: url('/sites/default/files/patients-alert-background.jpg');
+	background-repeat: none;
+	background-size: cover;
+	background-position: 0 0;
+}
+
+/**  <main> DEFAULTS  **/
+
+main {
+	background: url('/sites/default/files/Dental-School-blue-35.png');
+	background-repeat: no-repeat;
+	background-position: ;
+	background-size: ;
+}
+
+/**  MAIN LOWER REGION DEFAULTS  **/
+
+#main-lower {
+	background:#ddd;
+}
+
+.patients-landing-page #main-lower h4 a {
+	display: block;
+}
+
+/**  MAIN BOTTOM REGION DEFAULTS  **/
+
+#main-bottom {
+	background:#eee;
+}
+
+
+/**  FOOTER REGION DEFAULTS  **/
+
+
+
+
+/** !! **/
+
+/** Legacy styles for Doppelganger - MOVE THIS TO a DIFF STYLE SHEET!! */
 
 /* Main Menu */
-
-
-
 
 /* ----- Main Navigation ------------- */
 
