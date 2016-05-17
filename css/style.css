@@ -165,7 +165,10 @@ main {
 /**  MAIN LOWER REGION DEFAULTS  **/
 
 #main-lower {
-	background:#ddd;
+	background-image: url('/sites/default/files/patients-main-lower-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: auto;
 }
 
 .patients-landing-page #main-lower h4 a {
