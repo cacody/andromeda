@@ -185,9 +185,9 @@ main {
 	display: block;
 	padding: 10px 15px;
 	background: rgba(255,255,255,.8);
-	color: #0d57aa;
-	font-weight: normal;
-	font-size: 1.1em;
+	color: #00274c;
+	font-weight: bold;
+	font-size: 1.2em;
 }
 
 .patients-landing-page #main-lower h4 a {
