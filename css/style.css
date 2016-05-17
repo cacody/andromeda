@@ -203,6 +203,13 @@ main {
 	display: none;
 }
 
+.patients-landing-page #main-lower h4 a.collapsed i.fa-minus {
+	display: none;
+}
+
+.patients-landing-page #main-lower h4 a.not(.collapsed) i.fa-minus {
+	display: inline-block;
+}
 
 
 #main-lower .panel-heading {
