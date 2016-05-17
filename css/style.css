@@ -139,6 +139,12 @@ img.logo {
 	background-position: 0 0;
 }
 
+#main-upper .alert-title {
+	display: block;
+	color: #ffcb05;
+	font-size: 1.3em;
+}
+
 /**  <main> DEFAULTS  **/
 
 main {
