@@ -67,8 +67,13 @@ img.logo {
 
 /** Basic vertical padding for major content regions except #main-top */
 
-#main-top, #main-upper, #main-content, #main-lower, #main-bottom {
+#main-upper, #main-content, #main-lower, #main-bottom {
 	padding: 15px 0;
+}
+
+.patients-landing-page #main-top {
+	padding-top:0;
+	padding-bottom:15px;
 }
 
 /** default region specific styles */
