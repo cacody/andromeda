@@ -243,6 +243,10 @@ main {
 	background: rgba(255,255,255,.7);
 }
 
+#main-lower .infographic img {
+	max-width: 100%;
+}
+
 /**  MAIN BOTTOM REGION DEFAULTS  **/
 
 #main-bottom {
