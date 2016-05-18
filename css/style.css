@@ -188,6 +188,7 @@ main {
 	color: #00274c;
 	font-weight: normal;
 	font-size: 1.2em;
+	box-shadow: 0 0 3px 0 #888;
 }
 
 .patients-landing-page #main-lower h4 a:hover, 
