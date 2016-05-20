@@ -96,7 +96,7 @@
 				<div class="col-md-12">
 					<div class="row">
 						<?php if ($logo): ?>
-						<div class="col-xs-6 col-sm-3 col-md-3">
+						<div class="col-xs-6 col-sm-5 col-md-3">
 						<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
     	      			<img class="logo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
     	    			</a>
@@ -104,7 +104,7 @@
     					<?php endif; ?>
                     	
 						<?php if (!empty($page['search_box'])): ?>
-						<div class="search-box hidden-xs hidden-sm col-md-4 col-md-push-6">
+						<div class="search-box hidden-xs col-sm-4 col-md-4 col-md-push-6">
 						<?php print render($page['search_box']); ?>
 						</div>
 						<?php endif; ?>
