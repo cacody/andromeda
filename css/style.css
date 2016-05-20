@@ -271,7 +271,7 @@ main {
 /**  MAIN BOTTOM REGION DEFAULTS  **/
 
 #main-bottom {
-	background:#eee;
+	background: rgba(108,73,56,.7);
 }
 
 /** MAIN LOWER BOTTOM COMBINED **/
