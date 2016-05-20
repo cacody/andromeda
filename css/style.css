@@ -277,7 +277,9 @@ main {
 
 /**  FOOTER REGION DEFAULTS  **/
 
-
+#footer {
+	background-color: #00274c;
+}
 
 
 /** !! **/
