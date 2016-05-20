@@ -172,6 +172,10 @@ main {
 	background-size: ;
 }
 
+.patients-inner-page main#main-content section {
+	background: rgba(255,255,255,.9);
+}
+
 /**  MAIN LOWER REGION DEFAULTS  **/
 
 #main-lower {
