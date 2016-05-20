@@ -281,6 +281,11 @@
 </main><!-- /#main-content -->
 <?php endif; ?>
 
+<?php if (!empty($page['main_lower']) && (!empty($page['main_bottom']))): ?>
+
+<div id="main-lower-bottom-combined">
+
+<?php endif; ?>
 
 <?php if (!empty($page['main_lower'])): ?>
 	<div id="main-lower" role="complementary">
@@ -308,6 +313,12 @@
 		</div>
 		</div>
 	</div><!-- /#main-bottom -->
+<?php endif; ?>
+
+<?php if (!empty($page['main_lower']) && (!empty($page['main_bottom']))): ?>
+
+</div><!-- /#main-lower-bottom-combined -->
+
 <?php endif; ?>
 
 <?php if (!empty($page['main_bottom'])): ?>
