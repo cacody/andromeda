@@ -104,7 +104,7 @@
     					<?php endif; ?>
                     	
 						<?php if (!empty($page['search_box'])): ?>
-						<div class="search-box col-md-3 col-md-push-6">
+						<div class="search-box hidden-xs hidden-sm col-md-4 col-md-push-6">
 						<?php print render($page['search_box']); ?>
 						</div>
 						<?php endif; ?>
