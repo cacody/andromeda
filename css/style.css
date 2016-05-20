@@ -36,6 +36,11 @@
 	padding: 5px;
 }
 
+a.tel, a.tel:hover, a.tel:active {
+	color: #000000;
+	text-decoration: none;
+}
+
 /** HEADER REGION DEFAULTS **/
 
 #header {
