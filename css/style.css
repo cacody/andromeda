@@ -131,12 +131,21 @@ img.logo {
 	color: #00274c;
 }
 
-.patients-landing-page .nav li, .patients-inner-page .nav li {
+.patients-landing-page #top-navigation .nav li, .patients-inner-page #top-navigation .nav li {
 	display: inline-block;
 	font-size:.8em;
 }
 
-.patients-landing-page .nav li.first a, .patients-inner-page .nav li.first a {
+.patients-landing-page #top-navigation .nav li.first a, .patients-inner-page #top-navigation .nav li.first a {
+	padding-left: 0;
+}
+
+.patients-landing-page #footer .nav li, .patients-inner-page #footer .nav li {
+	display: inline-block;
+	font-size:.8em;
+}
+
+.patients-landing-page #footer .nav li.first a, .patients-inner-page #footer .nav li.first a {
 	padding-left: 0;
 }
 
