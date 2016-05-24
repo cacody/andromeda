@@ -167,7 +167,16 @@ input.patients-lp-rogue-menu-item {
 	width: 100%;
 	text-align: left;
 	padding: 10px 15px;
+	background: #cc6600;
+	font-family: FontAwesome;
 }
+
+.patients-landing-page form input[type="text"] {
+	position:relative;
+	font-family: 'FontAwesome';
+}
+
+
 
 .patients-landing-page-menu .nav > li > a:hover, input.patients-lp-rogue-menu-item:hover {
 	background: #587abc;
