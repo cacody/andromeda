@@ -60,13 +60,13 @@ a.tel, a.tel:hover, a.tel:active {
     padding-top: 5px;
 }
 
-#top-navigation .nav > li > a {
+#top-navigation .nav > li > a, #footer .nav > li > a  {
 	padding: 0 8px;
 	color: #ddd;
 	font-size: .9em;
 }
 
-#top-navigation .nav > li > a:hover {
+#top-navigation .nav > li > a:hover, #footer .nav > li > a:hover {
 	background: transparent;
 	text-decoration: underline;
 	color: #ffcb05;
