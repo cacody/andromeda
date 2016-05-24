@@ -162,6 +162,13 @@ img.logo {
 	border-radius: 3px;
 }
 
+input.patients-lp-rogue-menu-item {
+	border: none;
+	width: 100%;
+	text-align: left;
+	padding: 10px 15px;
+}
+
 .patients-landing-page-menu .nav > li > a:hover {
 	background: #587abc;
 }
