@@ -153,7 +153,7 @@ img.logo {
 	display: block;
 }
 
-.patients-landing-page-menu .nav > li > a, .patients-lp-rogue-menu-item {
+.patients-landing-page-menu .nav > li > a, input.patients-lp-rogue-menu-item {
 	margin-left: 0;
 	background: #00274c;
 	color: #fff;
@@ -169,7 +169,7 @@ input.patients-lp-rogue-menu-item {
 	padding: 10px 15px;
 }
 
-.patients-landing-page-menu .nav > li > a:hover {
+.patients-landing-page-menu .nav > li > a:hover, input.patients-lp-rogue-menu-item:hover {
 	background: #587abc;
 }
 
