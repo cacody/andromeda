@@ -133,6 +133,7 @@ img.logo {
 
 .patients-landing-page .nav li, .patients-inner-page .nav li {
 	display: inline-block;
+	font-size:.8em;
 }
 
 .patients-landing-page .nav li.first a, .patients-inner-page .nav li.first a {
