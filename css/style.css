@@ -131,7 +131,7 @@ img.logo {
 	color: #00274c;
 }
 
-.patients-landing-page .nav li {
+.patients-landing-page .nav li, .patients-inner-page .nav li {
 	display: inline-block;
 }
 
