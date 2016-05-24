@@ -321,7 +321,7 @@
 
 <?php endif; ?>
 
-<?php if (!empty($page['main_bottom'])): ?>
+<?php if (!empty($page['footer'])): ?>
 	<footer id="footer" role="contentinfo">
 		<div class="container">
 		<div class="row">
