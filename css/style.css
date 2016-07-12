@@ -210,7 +210,8 @@ input.patients-lp-rogue-menu-item {
 	padding-right: 20px;
 }
 
-/**  <main> DEFAULTS  **/
+
+/**  <main> CONTENT AREA DEFAULTS  **/
 
 main {
 	background: url('/sites/default/files/Dental-School-blue-35.png');
@@ -222,6 +223,14 @@ main {
 article.white-semi-trans-bg  {
 	background: rgba(255,255,255,.9);
 	padding: 15px;
+}
+
+.blue-inner-page-title {
+  font-weight: 300;
+  color: #407cc9;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom:20px;
+  font-size: 3.2em;
 }
 
 /**  MAIN LOWER REGION DEFAULTS  **/
