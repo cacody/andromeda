@@ -633,6 +633,12 @@ article.white-semi-trans-bg  {
 	
 }
 
+@media (min-widt: 1200px) {
+	.bg-image {
+		background-position: 0 -129px !important;
+	}
+}
+
 
 
 
