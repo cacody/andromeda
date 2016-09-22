@@ -267,6 +267,10 @@ article.white-semi-trans-bg  {
 	background:rgba(0,0,0,.3);
 }
 
+#block-menu-menu-patients-inner-pages-menu .nav > li > a {
+	color: #01257a;
+}
+
 
 /**  MAIN LOWER REGION DEFAULTS  **/
 
