@@ -264,7 +264,8 @@ article.white-semi-trans-bg  {
 }
 
 #block-menu-menu-patients-inner-pages-menu {
-	background:rgba(101,90,82,.1);
+	background: rgba(1,37,122,.1);
+	border: solid 1px rgba(1,37,122,.3);
 }
 
 #block-menu-menu-patients-inner-pages-menu .nav > li > a {
