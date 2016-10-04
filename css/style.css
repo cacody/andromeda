@@ -272,6 +272,9 @@ article.white-semi-trans-bg  {
 	color: #01257a;
 }
 
+#block-menu-menu-patients-inner-pages-menu .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: rgba(1,37,122,.3);
 
 /**  MAIN LOWER REGION DEFAULTS  **/
 
