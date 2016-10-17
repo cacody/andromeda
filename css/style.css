@@ -197,12 +197,7 @@ img.logo {
 }
 
 .orange-menu-item {
-	border: none;
-	width: 100%;
-	text-align: left;
-	padding: 10px 10px;
 	background: #cc6600;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, FontAwesome;
 }
 
 .patients-landing-page form input[type="text"] {
