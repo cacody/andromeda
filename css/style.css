@@ -196,7 +196,7 @@ img.logo {
 	border-radius: 3px;
 }
 
-.orange-menu-item {
+.patients-landing-page-menu .nav > li > a.orange-menu-item {
 	background: #cc6600;
 }
 
@@ -207,7 +207,7 @@ img.logo {
 
 
 
-.patients-landing-page-menu .nav > li > a:hover, .orange-menu-item {
+.patients-landing-page-menu .nav > li > a:hover, .patients-landing-page-menu .nav > li > a.orange-menu-item:hover {
 	background: #587abc;
 }
 
