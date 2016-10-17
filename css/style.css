@@ -106,6 +106,14 @@ a .icon-bar-item-title {
 	color: #ffcb05;
 }
 
+.social-media-icons i {
+	color: #fff;
+}
+
+.social-media-icons i:hover {
+	color: #ffcb05;
+}
+
 #logo-name-navsearch {
 	padding: 20px 0;
 }
