@@ -196,7 +196,7 @@ img.logo {
 	border-radius: 3px;
 }
 
-input.patients-lp-rogue-menu-item {
+.orange-menu-item {
 	border: none;
 	width: 100%;
 	text-align: left;
@@ -212,7 +212,7 @@ input.patients-lp-rogue-menu-item {
 
 
 
-.patients-landing-page-menu .nav > li > a:hover, input.patients-lp-rogue-menu-item:hover {
+.patients-landing-page-menu .nav > li > a:hover, .orange-menu-item {
 	background: #587abc;
 }
 
