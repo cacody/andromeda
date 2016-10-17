@@ -95,7 +95,7 @@ a .icon-bar-item-title {
 }
 
 #top-navigation .nav > li > a, #footer .nav > li > a  {
-	padding: 0 8px;
+	padding: 0 4px;
 	color: #ddd;
 	font-size: .9em;
 }
@@ -167,6 +167,8 @@ img.logo {
 
 .patients-landing-page #top-navigation .nav li, .patients-inner-page #top-navigation .nav li {
 	display: inline-block;
+	font-size: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .patients-landing-page #top-navigation .nav li.first a, .patients-inner-page #top-navigation .nav li.first a {
