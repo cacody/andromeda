@@ -185,7 +185,8 @@ img.logo {
 
 .patients-landing-page #footer .nav li, .patients-inner-page #footer .nav li {
 	display: inline-block;
-	font-size:.8em;
+	font-size: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .patients-landing-page #footer .nav li.first a, .patients-inner-page #footer .nav li.first a {
