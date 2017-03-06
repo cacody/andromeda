@@ -500,6 +500,10 @@ article.white-semi-trans-bg  {
 
 	  /* Mobile Navigation */
 
+	.region-top-nav .custom-hide {
+		display:none;
+	}
+
 	.button {
 		padding:3px;
 		margin:0;
